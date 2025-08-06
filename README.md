@@ -1,8 +1,8 @@
-# :sunny: CS290 Sunny Exercise Tracker
+# :muscle: CS290 Exercise Tracker
 
 Final project for `CS290: Web Development` at Oregon State University. It has been approved for public sharing.
 
-This full-stack MERN application allows users to track their exercise routines by logging workouts with details like exercise name, repetitions, weight, unit, and date. The application demonstrates modern web development practices including RESTful API design, database integration, and responsive user interfaces.
+This full-stack MERN app allows users to track their gym workouts by logging exercises with name, reps, weight, unit, and date.
 
 It consists of these key components:
 
