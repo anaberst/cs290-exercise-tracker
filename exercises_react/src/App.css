@@ -1,0 +1,147 @@
+#root {
+  max-width: 1280px;
+  margin: 0px auto;
+  padding: clamp(1rem, 4vw, 2rem);
+  text-align: center;
+}
+
+.app-nav a {
+  color:#f1f6fe;
+  padding: 12px 20px;
+  background-color:#2e38f3;
+  border: 2px solid #2e38f3;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 0px 10px 40px;
+  display: inline-block;
+  transition: all 0.25s ease;
+}
+
+.app-nav a:hover {
+  background-color:#535bf2;
+  border-color:#2e38f3;
+}
+
+body {
+  background-color:#fceb97;
+  color:midnightblue;
+  font-family:Arial, Helvetica, sans-serif;
+  margin: clamp(1rem, 3vw, 2rem);
+  padding: 0px 10px 0px 10px;
+}
+
+button {
+  background-color:#fefdab;
+  border: solid #9194d8;
+  color:midnightblue;
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  height: 40px;
+  margin-top: 10px;
+  width: min(300px, 100%);
+  transition: background-color 0.25s ease;
+}
+
+button:hover {
+  background-color:#fac802;
+}
+
+fieldset {
+  border: 2px solid #9194d8;
+  border-radius: 8px;
+  padding: clamp(15px, 3vw, 20px);
+  margin: 20px auto 80px auto;
+  max-width: min(600px, 90vw);
+  background-color: #fefdab;
+}
+
+footer {
+  position: static;
+  bottom: 20px;
+  left: 0px;
+  width: 100%;
+  text-align: center;
+  margin: 0px auto;
+}
+
+form button {
+  font-family:Arial, Helvetica, sans-serif;
+  margin-top: 20px;
+  width: min(200px, 100%);
+}
+
+form input, select {
+  border: 1px solid #9194d8;
+  border-radius: 4px;
+  box-sizing: border-box; 
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: clamp(14px, 2.5vw, 16px);
+  height: 40px;
+  padding: 8px 12px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+h1, h2 {
+  text-align: center;
+  margin: 20px auto;
+  font-size: clamp(2rem, 5vw, 3.2rem);
+}
+
+header p {
+  font-style: italic;
+}
+
+.icon {
+  font-weight: 500;
+  color: #2e38f3;
+  text-decoration: inherit;
+  transition: color 0.25s ease;
+}
+
+.icon:hover {
+  color: #535bf2;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  margin-top: 15px;
+  font-weight: bold;
+  color: midnightblue;
+  text-align: left;
+}
+
+#firstLabel {
+  margin-top: 0;
+}
+
+legend {
+  padding: 0px 10px;
+  font-weight: bold;
+  color: midnightblue;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 2em auto;
+  width: min(100%, 800px);
+  overflow-x: auto;
+}
+
+table tr th {
+  border: #9194d8 solid;
+  border-collapse: collapse;
+  background-color:#fefdab;
+  color: midnightblue;
+  padding: clamp(10px, 2vw, 15px);
+}
+
+table tr td {
+  border: solid #9194d8;
+  border-collapse: collapse;
+  background-color:#fcfcfc;
+  color:midnightblue;
+  padding: clamp(10px, 2vw, 15px);
+}
