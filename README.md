@@ -6,7 +6,7 @@ This full-stack MERN app allows users to track their gym workouts by logging exe
 
 <img alt="Sunny: Exercise Tracker, Log Exercise Page" src="./images/LogExercise.png" width="300">   <img alt="Sunny: Exercise Tracker, Landing Page" src="./images/LandingPage.png" width="302">
 
-## :computer: Tech Stack
+## :pancakes: Tech Stack
 
 **Backend:**
 - Node.js with Express.js framework
