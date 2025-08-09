@@ -84,6 +84,7 @@ The app follows a clear separation of concerns with distinct backend and fronten
 ```
 cs290-exercise-tracker/
 ├── README.md                          # You are here
+├── images/                            # App screenshots
 ├── exercises_rest/                    # Backend
 │   ├── .env                           # Environment variables
 │   ├── package.json                   # Dependencies
@@ -109,7 +110,7 @@ cs290-exercise-tracker/
         │   ├── ExerciseRow.jsx
         │   ├── ExerciseTable.jsx
         │   └── Navigation.jsx
-        └── pages/                     # Page components
+        └── pages/                     # Page component
             ├── CreateExercisePage.jsx
             ├── EditExercisePage.jsx
             └── HomePage.jsx
